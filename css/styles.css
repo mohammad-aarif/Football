@@ -80,6 +80,8 @@ main{
 }
 .about-img img{
     width: 100%;
+    height:100%;
+    object-fit: cover;
     padding: 3%;
 }
 .about-texts{
@@ -231,9 +233,12 @@ footer a{
 }
 /* Tablet Devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
+    .headline{
+        padding:8%;
+    }
     .headline h1{
         color:#fff;
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .half-width{
         width: 50%;
